@@ -24,9 +24,7 @@ class Contact extends React.Component {
                 return(
                      <div className="post card" key={pokemon.id = Math.random()}>
                         <div className="card-content">
-                            <Link to={`/contact/${pokemon.id}`}>
                                 <span className="card-title">{pokemon.name}</span>
-                            </Link>
                             <p>{pokemon.url}</p>
                         </div>
                     </div>
